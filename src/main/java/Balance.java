@@ -30,6 +30,10 @@ public class Balance extends Base {
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 
 
+
+
+
+
         driver.get("https://tutoriage.com");
         driver.findElement(By.xpath("//*[@id=\"header\"]/div/nav/ul/li[7]/a")).click();
         Thread.sleep(500);
